@@ -6,7 +6,7 @@ from faster_whisper import WhisperModel
 import re, os, yt_dlp
 
 # --- Page Setup ---
-st.set_page_config(page_title="VocorAI", layout="wide")
+st.set_page_config(page_title="ConnectAI", layout="wide")
 st.markdown("""
     <style>
         /* Move the sidebar to the right */
@@ -96,12 +96,12 @@ def show_landing():
     st.markdown("<div style='margin-top: 70px;'></div>", unsafe_allow_html=True)
     st.markdown("""
     <h1 style='text-align: center; font-size: 6.5rem; font-weight: 2500; bottom-margin: 0px; padding: 0.2;'>
-        Bridge AI
+        Connect AI
     </h1>
 """, unsafe_allow_html=True)
     st.markdown("""
     <p style='text-align: center; font-size: 1.5rem; margin-top: 0; color: #7f4ae8;'>
-        <b>Bridge the Gap Between Us</b>
+        <b>Connect the Gap Between Us</b>
     </p>
 """, unsafe_allow_html=True)
     st.markdown("<div style='margin-top: 40px;'></div>", unsafe_allow_html=True)
@@ -481,7 +481,7 @@ def show_chat():
         for msg in st.session_state.messages:
             role = msg["role"]
             is_user = role == "user"
-            avatar = "YOU" if is_user else "BRIDGE AI"
+            avatar = "YOU" if is_user else "Connect AI"
             role_class = "user" if is_user else "bot"
             st.markdown(
                 f"""
