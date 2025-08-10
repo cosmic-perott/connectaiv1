@@ -1,8 +1,5 @@
-# BRIDGE AI
-created by cosmic_perott and renvitz
-
-## To Use Program (on internet)
-go to bridgeaiv1.streamlit.app
+# ConnectAI
+created by cosmic_perott
 
 ## To Use Program (locally)
 clone git repo
